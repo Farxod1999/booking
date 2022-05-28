@@ -27,3 +27,7 @@
 .search_input:focus{
     transform: scale(1) translateX(-200px);
 }
+
+.card:hover .book-now{
+    transform: scaleY(1);
+}

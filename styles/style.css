@@ -324,11 +324,17 @@ input[type="text"]{
     grid-template-columns: repeat(3, 1fr);
     column-gap: 24px;
 }
+.card{
+    overflow: hidden;
+    border-radius: 16px 16px 0px 0px;
+}
 .cards__img{
     max-width: 411px;
     width: 100%;
     object-fit: cover;
     border-radius: 16px 16px 0px 0px;
+    transition: 0.5s;
+    position: relative;
 }
 .cards__descr{
     font-size: 12px;
@@ -346,6 +352,9 @@ input[type="text"]{
 }
 .cards-descr-blocks{
     padding: 24px 24px 38px 24px;
+    position: relative;
+    height: 100%;
+    transition: 0.5s;
 }
 .cards__title{
     font-family: 'Open Sans';
@@ -408,6 +417,32 @@ input[type="text"]{
 }
 .rating-mini > span.active {
 	color: #F95F5F;
+}
+.booking{
+    position: relative;
+}
+.book-now{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.349);
+    transition: 0.6s;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+}
+.booking__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #24ab7185;
+    color: #fff;
+    font-size: 19px;
+}
+.book__icon{
+    margin-right: -20px;
+    transform: translateX(-30px);
 }
 /*HOTELS END*/
 /*MAIN END*/
