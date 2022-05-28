@@ -1,0 +1,29 @@
+.nav__link:hover{
+    color: #24AB70;
+}
+.subs__btn:hover .btn_play-icon{
+    transform: scale(6) translateX(20px) translateY(5px) rotateY(180deg);
+}
+.forms__btn:focus ~ .search_input{
+    transform: scale(1) translateX(-100px) ;
+    transform-origin: 0 0;
+}
+.forms__btn:focus > .forms__btn-text{
+    transform: scale(1) translateX(100px) ;
+    transform-origin: 0 0;
+}
+.forms__btn:focus > .forms__icon-btn{
+    transform: scale(1.5) translateX(20px) translateY(-5px) ;
+    transform-origin: 0 0;
+}
+.forms__btn:focus{
+    transform: scale(1) translateX(50px) ;
+    transform-origin: 0 0;
+    padding: 46px 10px;
+}
+.search_input:active {
+    transform: scale(1);
+}
+.search_input:focus{
+    transform: scale(1) translateX(-200px);
+}
