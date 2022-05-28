@@ -317,6 +317,23 @@ input[type="text"]{
     color: #24AB70;
     padding: 6px 25px;
 }
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+}
+.cards__img{
+    max-width: 411px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+.cards__descr{
+    font-size: 12px;
+    line-height: 18px;
+    color: #24AB70;
+
+}
 .hotels__descrip{
     font-family: 'Open Sans';
     font-size: 16px;
@@ -325,22 +342,70 @@ input[type="text"]{
     max-width: 479px;
     width: 100%;
 }
+.cards-descr-blocks{
+    padding: 24px 24px 38px 24px;
+}
+.cards__title{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #222222;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.cards__info-prise{
+    position: relative;
+    padding-right: 30px;
+    font-size: 16px;
+    color: #222222;
+
+}
+.cards__info-prise::after{
+    display: block;
+    content: "";
+    height: 16px;
+    width: 2px;
+    top: 0;right: 0; bottom: 0;
+    margin: auto;
+    position: absolute;
+    background: #DDDDDD;
+}
+.cards__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards__info-estimation{
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin-left: 12px;
+}
+.raitings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .rating-mini {
 	display: flex;
     justify-content: center;
-	font-size: 0;
+    align-items: center;
+    height: 16px;
 }
 .rating-mini span {
 	padding: 0;
-	font-size: 30px;
+	font-size: 21px;
 	line-height: 1;
 	color: lightgrey;
+    border-radius: 10px;
 }
 .rating-mini > span:before {
 	content: '★';
+    border-radius: 10px;
 }
 .rating-mini > span.active {
-	color: #52503B;
+	color: #F95F5F;
 }
 /*HOTELS END*/
 /*MAIN END*/
