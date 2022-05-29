@@ -450,6 +450,9 @@ input[type="text"]{
 
 
 /*comfot start*/
+.comfort{
+    margin-bottom: 120px;
+}
 .btn__g{
     font-weight: 600;
     font-size: 16px;
@@ -510,7 +513,85 @@ input[type="text"]{
     color: rgba(36, 171, 112, 1);
     height: 35px;
 }
-
-
 /*comfot end*/
+
+
+/*DISCOVER START*/
+    .discover{
+        margin-bottom: 120px;
+    }
+    .explore__title{
+        margin-bottom: 20px;
+    }
+    .explore__descr-change-bottom{
+        margin-bottom: 24px;
+    }
+    .Explore{
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+    .disco-flex{
+        display: flex;
+        justify-content: center;align-items: center;
+        position: relative;
+    }
+    .discover__img{
+        max-width: 628px;
+        width: 100%;
+    }
+/*DISCOVER END*/
+
+/****************************** */
+
+
+/*OPINION ST*/
+    .opinion-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .opinion-main{
+        max-width: 690px;
+        width: 100%;
+        padding-left: 77px;
+    }
+    .author__img{
+        max-width: 411px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .opinion__descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    position: relative;
+    text-align: justify;
+    margin-bottom: 57px;
+    }
+    .marks{
+        color: #24AB70;
+        max-width: 26px;
+        max-height: 23px;
+        font-size: 46px;
+    }
+    .marks-bottom{
+        position: absolute;
+        top: 100%;
+    }
+    .opinion__author{
+        font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+    margin-bottom: 12px;
+    }
+    .opinoin__post{
+        font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    }
+/*OPINION END*/
 /*MAIN END*/
