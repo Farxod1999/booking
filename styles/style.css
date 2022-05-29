@@ -295,6 +295,7 @@ input[type="text"]{
 .hotels{
     margin-top: 120px;
     position: relative;
+    margin-bottom: 147px;
 }
 .views{
     display: flex;
@@ -445,4 +446,71 @@ input[type="text"]{
     transform: translateX(-30px);
 }
 /*HOTELS END*/
+/************************************* */
+
+
+/*comfot start*/
+.btn__g{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #24AB70;
+    border-radius: 35px;
+    display: inline-block;
+    padding: 16px 32px;
+}
+.comfort-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+.facilities{
+    max-width: 421px;
+    width: 100%;
+    margin-right: 24px;
+}
+.facilities__title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.facilities__descr{
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    margin-bottom: 50px;
+
+}
+.services__card{
+    padding: 45px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.services__descr{
+    font-size: 16px;
+    line-height: 28px;
+    color: #222222;
+    text-align: center;
+    width: 100%;
+}
+.services__icon{
+    margin-bottom: 24px;
+    font-size: 35px;
+    color: rgba(36, 171, 112, 1);
+    height: 35px;
+}
+
+
+/*comfot end*/
 /*MAIN END*/
