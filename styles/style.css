@@ -611,4 +611,79 @@ input[type="text"]{
     object-fit: cover;
 }
 /*SPONSORS  END*/
+
+/**************************** */
+
+/*LOCATION START*/
+.map{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.maps__img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 16px;
+}
+.location{
+    position: relative;
+    height: 677px;
+    display: grid;
+    align-items: flex-end;
+}
+.location-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #fff;
+    margin: 0 43px 43px 43px;
+    padding: 44px 66px;
+    border-radius: 16px;
+}
+.map-description{
+}
+.location__title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #222222;
+    margin-bottom: 16px;
+}
+.location__descr{
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    max-width: 510px;
+    width: 100%;
+}
+.email{
+    background: #FAFAFA;
+    border-radius: 50px;
+}
+.email__send{
+    border: transparent;
+    outline: none;
+}
+.email__input{
+    border: transparent;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #555555;
+
+}
+.email__input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #555555;
+
+}
+
+/*LOCATION END*/
 /*MAIN END*/
