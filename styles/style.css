@@ -644,8 +644,6 @@ input[type="text"]{
     padding: 44px 66px;
     border-radius: 16px;
 }
-.map-description{
-}
 .location__title{
     font-weight: 600;
     font-size: 36px;
@@ -682,8 +680,56 @@ input[type="text"]{
     font-size: 14px;
     line-height: 28px;
     color: #555555;
-
 }
-
 /*LOCATION END*/
 /*MAIN END*/
+/*FOOTER START*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 120px 63px;
+}
+.hotel-f{
+    max-width: 264px;
+    width: 100%;
+}
+.hotels-f__logo{
+    margin-bottom: 24px;
+}
+.hotels-f__descrip{
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+}
+.contacts__facebook{
+    font-size: 18px;
+    color: rgb(6, 89, 197);
+    margin-right: 30px;
+}
+.contacts__insta{
+    font-size: 18px;
+    color: rgb(221, 42, 10);
+    margin-right: 30px;
+}
+.contacts__google{
+    font-size: 18px;
+    color: #28B446;
+}
+.general-t{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #222222;
+    margin-bottom: 24px;
+}
+.general-li{
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+/*FOOTER END*/
