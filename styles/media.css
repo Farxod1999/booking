@@ -256,6 +256,58 @@
         max-width: 540px;
     }
 }
+@media (max-width: 425px) {
+    .container {
+        max-width: 375px;
+    }
+    .opinion__descr{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .facilities__descr{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .location__descr {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .location-flex{
+        margin: 5px;
+    }
+    .location__title {
+        font-size: 25px;
+    }
+    .email{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .email__input{
+        border: 1px solid grey;
+        padding: 5px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .email__send{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    .footer{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: start;
+    }
+    .subs__title {
+        font-size: 34px;
+    }
+}
+@media (max-width: 375px) {
+    .container {
+        max-width: 350px;
+    }
+}
 @media (max-width: 320px) {
     .container {
         max-width: 280px;
