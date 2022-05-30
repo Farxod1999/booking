@@ -733,3 +733,102 @@ input[type="text"]{
     display: inline-block;
 }
 /*FOOTER END*/
+.window{
+    height: 100vh;
+    width: 100%;
+    background: #24ab7142;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: 50% 0;
+}
+.login{
+    background: #fff;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.login__close-icon{
+    font-size: 19px;
+    height: 19px;
+    margin-bottom: 15px;
+}
+.Sig-in__button{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #24ab71;
+    font-size: 19px;
+    padding-bottom: 6px;
+}
+.area__sig-in{
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.area__sig-in > input{
+    margin-bottom: 19px;
+    border: 1px solid #222222;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555555;
+    outline: none;
+}
+.sending{
+    display: flex;
+    justify-content: flex-end;
+}
+.alternative{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+.facebook-li{
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(4, 56, 199);
+    text-align: center;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.alter__title{
+    margin-bottom: 15px;
+}
+.google-li{
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(226, 48, 3);
+    text-align: center;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.alternative_facebook-icon{
+    font-size: 22px;
+    color: #fff;
+
+}
+.alternative_google-icon{
+    font-size: 22px;
+    color: #fff;
+}
+.window:target{
+    transform: scale(1);
+}
